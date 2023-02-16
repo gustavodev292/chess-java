@@ -1,6 +1,7 @@
 package application;
 
 import java.util.InputMismatchException;
+
 import java.util.Scanner;
 
 import chess.ChessException;
@@ -10,6 +11,7 @@ import chess.ChessPosition;
 
 public class Program {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in); 
